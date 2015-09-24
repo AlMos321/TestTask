@@ -1,0 +1,212 @@
+#window {
+    height: 490px;
+    width: 1107px;
+    background-color: #3E5567;
+    border-color: purple;
+}
+
+#menu {
+    height: 490px;
+    width: 300px;
+    background-color: #2A3E4B;
+    border-color: purple;
+    float: left;
+}
+
+.items {
+    height: 50px;
+    width: 278px;
+    border-color: purple;
+    margin-left: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.items:hover {
+    background-color: #16222C;
+}
+
+.text {
+    position: absolute;
+    color: #8CA2C3;
+    margin-left: 53px;
+    margin-top: 17px;
+    font-family:Arial;
+}
+
+
+.items:hover .text {
+    color: white;
+}
+
+.icon-io {
+    position: absolute;
+    margin-left: 25px;
+    margin-top: 18px;
+    color: #8DA3C5;
+}
+
+.items:hover .icon-io{
+    color: white;
+}
+
+.username {
+    position: absolute;
+    color: #ffffff;
+    margin-left: 80px;
+    margin-top: 180px;
+    font-size: 30px;
+    font-family: Arial;
+}
+
+.round {
+    position: absolute;
+    border-radius: 100px;
+    border: 10px solid #22323D;
+    margin-top: 40px;
+    margin-left: 90px;
+}
+
+.settings {
+}
+
+.main {
+    height: 490px;
+    width: 807px;
+    float: left;
+    background: linear-gradient(90deg,#3E5567,#1F3240);
+}
+
+.inscription {
+    margin-top: 28px;
+    margin-left: 38px;
+    position: absolute;
+    font-size: 34px;
+    color: #ffffff;
+    font-family: Arial;
+}
+
+.text-settings {
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 38px;
+    color: #8CA2C3;
+    word-wrap: break-word;
+    width: 700px;
+}
+
+.general {
+    position: absolute;
+    margin-top: 138px;
+    margin-left: 38px;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.line {
+    position: absolute;
+    margin-top: 168px;
+    margin-left: 38px;
+    margin-right: 10px;
+    width: 750px;
+    height: 1px;
+    background-color: #2C404C;
+}
+
+.general-block {
+    margin-top: 186px;
+    /*height: 200px;*/
+    width: 807px;
+    margin-left: 38px;
+    /*background-color: #000000;*/
+}
+
+.text2 {
+   /* background-color: #2C404C;*/
+    float: left;
+    width:100%
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #8CA2C3;
+}
+
+
+.square {
+    width: 30px;
+    height: 30px;
+    background: #1A2F3B;
+    /*float: right;*/
+    margin-left: 710px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.checkbox-icon {
+    position: absolute;
+    margin-left:8px;
+    margin-top: 5px;
+    /*color: #189AC4;*/
+    color: #213140;
+}
+
+.button-cancel {
+    position: absolute;
+    width: 105px;
+    height: 28px;
+    /*background-color: aqua;*/
+    float:left;
+    margin-left: 560px;
+    margin-top: 2px;
+    cursor: pointer;
+
+}
+
+.button-cancel:hover {
+    border-radius: 3px;
+    border: 2px solid #189AC4;
+}
+
+.button-save {
+    position: absolute;
+    width: 78px;
+    height: 32px;
+    background-color: #189AC4;
+    float: left;
+    margin-left: 670px;
+    margin-top: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.button-save:hover {
+    background-color: #ffffff;
+}
+
+.block-button {
+    /*margin-top: 186px;*/
+    /*height: 200px;*/
+    width: 807px;
+    margin-left: 38px;
+    display: none;
+}
+
+.txt-button-save {
+    position: absolute;
+    margin-top: 7px;
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.button-save:hover .txt-button-save{
+    color: #1795BE;
+}
+
+.txt-button-cancel {
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 20px;
+    color: #8DA3C5;
+    /*color: #1795BE;*/
+}
